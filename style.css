@@ -1,53 +1,49 @@
-@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@700&display=swap');
-body
-{
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
     font-family: 'Outfit', sans-serif;
     background-color: hsl(212, 45%, 89%);
-    /* display: flex;
-    align-items: center; */
-    font-size: 15px;
-}
-.container
-{
+    min-height: 100vh;
     display: flex;
+    align-items: center;
+    font-size: 15px;
     flex-direction: column;
     justify-content: center;
-    min-height: 95vh;
-    align-items: center;
+
+}
+.container{
+    max-width: 360px;
     margin: 0 auto;
-    height: auto;
 }
-.card
-{
+.card{
     background-color: hsl(0, 0%, 100%);
-    border-radius: 15px;
-    width: 240px;
-    padding: 15px;
+    padding: 18px;
+    border-radius: 17px;
     text-align: center;
-    box-shadow: 2px 1px 30px  rgba(114, 114, 114, 0.3);
+    margin: 0 1em;
 }
-.card img
-{   
-    border-radius: 10px;
-    width: 240px; height: 240px;
+.card img{
+    width: 100%;
+    border-radius: 12px;
 }
-.text h3
-{
+.text{
+    padding: 22px 10px;
+}
+.text h2{
     color: hsl(218, 44%, 22%);
+    padding-bottom: 15px;
 }
-.text p
-{
+.text p{
     color: hsl(220, 15%, 55%);
-    
 }
-.attribution 
-{ 
-    font-size: 11px;
+
+.attribution {
+    font-size: 15px;
+    font-weight: 500;
+    color: rgb(0, 0, 0);
     text-align: center;
-    margin-bottom: 20px;
- 
- }
-.attribution a
- { 
-    color: hsl(228, 45%, 44%);
- }
+    margin-top: 20px;
+  }
