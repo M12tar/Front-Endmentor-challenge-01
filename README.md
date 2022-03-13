@@ -1,2 +1,2 @@
-# Front-Endmentor-challenge-01
+# Front-End-Mentor-challenge-01
 qr-code-component-main
